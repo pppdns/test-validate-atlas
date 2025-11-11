@@ -2,9 +2,9 @@ name: Test Atlas Validation
 
 on:
   push:
-    branches: [main]
+    branches: [stable]
   pull_request:
-    branches: [main]
+    branches: [stable]
 
 jobs:
   validate:
