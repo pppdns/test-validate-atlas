@@ -2,9 +2,9 @@ name: Test Atlas Validation
 
 on:
   push:
-    branches: [ main ]
+    branches: [stable]
   pull_request:
-    branches: [ main ]
+    branches: [stable]
 
 jobs:
   validate:
@@ -12,8 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+
       - name: Validate Atlas Markdown
-        uses: pppdns/validate-atlas@main
+        uses: pppdns/validate-atlas@v1
         with:
           file_path: atlas.md
