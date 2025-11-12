@@ -20,6 +20,7 @@ Organizational alignment is a traditional business concept and can be described 
 
 #### A.0.1.1.3 - Aligned Structure Core]  <!-- UUID: fad68392-c852-4102-81fd-2a4037be38f91 -->
 
+
 An aligned structure is a network, ecosystem, entity, or organization that actively employs Alignment Engineering.
 
 #### A.0.1.1.4 - Universal Alignment [Core]  <!-- UUID: 9f953b73-566e-4428-a9d2-e179513c3371 -->
