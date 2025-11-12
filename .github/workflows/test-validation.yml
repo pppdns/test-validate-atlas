@@ -1,10 +1,10 @@
-name: Test Atlas Validation
+name: Validate Atlas on Pull Request
 
 on:
-  push:
-    branches: [stable]
   pull_request:
-    branches: [stable]
+    paths:
+      - "**.md"
+      - "docs/**"
 
 jobs:
   validate:
