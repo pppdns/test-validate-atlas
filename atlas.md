@@ -18,7 +18,7 @@ Organizational alignment is a traditional business concept and can be described 
 
 “Ecosystem Intelligence” characterizes a decentralized ecosystem as a single entity acting with a greater or lesser amount of intelligence. Ecosystem Intelligence is not merely determined by the sum of the intelligence of each of its constituent parts, but rather the alignment of these parts. Counterintuitively, very intelligent, but spiritually misaligned participants in a decentralized ecosystem will actually lower Ecosystem Intelligence.
 
-#### A.0.1.1.3 - Aligned Structure [Core]  <!-- UUID: fad68392-c852-4102-81fd-2a4037be38f9 -->
+#### A.0.1.1.3 - Aligned Structure [Core]  <!-- UUID: fad68392-c852-4102-81fd-2a4037be38f91 -->
 
 An aligned structure is a network, ecosystem, entity, or organization that actively employs Alignment Engineering.
 
