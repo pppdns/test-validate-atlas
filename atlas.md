@@ -10,7 +10,7 @@ This Article contains definitions and general provisions that should be inherite
 
 This Section contains essential definitions that are to be inherited as context for all Atlas documents.
 
-#### A.0.1.1.1 - Organizational Alignment - Edit 3 [Core]  <!-- UUID: 4f6fda1e-7450-4065-8095-e93cb10b3a2a -->
+#### A.0.1.1.1 -  Organizational Alignment - Edit 3 [Core]  <!-- UUID: 4f6fda1e-7450-4065-8095-e93cb10b3a2a -->
 
 Organizational alignment is a traditional business concept and can be described as the process of implementing strategies and philosophies to ensure that each member of an organization, from entry-level positions to executive managers, shares a common goal and vision for the success of an organization.
 
