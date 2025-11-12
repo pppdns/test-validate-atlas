@@ -4,7 +4,6 @@ on:
   pull_request:
     paths:
       - "**.md"
-      - "docs/**"
 
 jobs:
   validate:
@@ -39,35 +38,13 @@ jobs:
               summary = '## ⚠️ Validation Summary Not Available\n\nUnable to read validation results.';
             }
 
-            // Find existing bot comment
-            const { data: comments } = await github.rest.issues.listComments({
+            // Post new comment
+            await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
+              body: summary
             });
-
-            const botComment = comments.find(comment => 
-              comment.user.type === 'Bot' && 
-              comment.body.includes('Atlas Validation')
-            );
-
-            if (botComment) {
-              // Update existing comment
-              await github.rest.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: botComment.id,
-                body: summary
-              });
-            } else {
-              // Create new comment
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                body: summary
-              });
-            }
 
       - name: Fail if validation errors
         if: steps.validate.outputs.has_errors == 'true'
