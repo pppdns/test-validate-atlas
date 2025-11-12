@@ -6,7 +6,7 @@ This Preamble will be further populated in later iterations of the Atlas.
 
 This Article contains definitions and general provisions that should be inherited as essential context for the Atlas as a whole.
 
-### A.0.1.1 - Definitions [Section  <!-- UUID: c7d62f28-1d64-4632-8cd8-4f2b44c51bba -->
+### A.0.1.1 - Definitions [Section   <!-- UUID: c7d62f28-1d64-4632-8cd8-4f2b44c51bba -->
 
 This Section contains essential definitions that are to be inherited as context for all Atlas documents.
 
